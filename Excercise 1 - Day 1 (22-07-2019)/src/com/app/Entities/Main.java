@@ -2,7 +2,7 @@ package com.app.Entities;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Queue<Integer> queue = new Queue<Integer>();
         for(int i=0; i<8; i++){
             queue.add(i+1);

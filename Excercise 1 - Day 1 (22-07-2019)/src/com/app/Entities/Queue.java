@@ -32,30 +32,35 @@ public class Queue<T> {
         this.capacity = capacity;
     }
 
-    public void add(T x){
+    public void add(T x) throws Exception {
 //        queue.add(x);
         if(!isQueueOverFlowed()){
             addItemToQueue(x);
+        }
+        else{
+            throw new Exception("OverFlow");
         }
     }
 
 
 
 
-    public T remove(){
+    public T remove() throws Exception {
 //        int valueAtFront = queue.get(0);
 //        queue.remove(0);
 
         T valueAtFront = null;
         if(!isQueueUnderFlowed()){
             valueAtFront = removeItemFromQueue();
+        }else {
+            throw new Exception("UnderFlow");
         }
         return valueAtFront;
     }
 
 
     private boolean isQueueOverFlowed() {
-        return (rear+1 == front);
+        return ((rear+1)%this.capacity == front);
     }
 
     private void addItemToQueue(T item) {
