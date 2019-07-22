@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tavisca.workshops.pratham.datastructures.QueueTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-07-22T10:31:50" hostname="RENTLAPT0010" time="0.058">
+  <properties/>
+  <testcase name="throwsExceptionWhenCapacityIsExhausted()" classname="com.tavisca.workshops.pratham.datastructures.QueueTest" time="0.037"/>
+  <testcase name="acceptsMultipleValuesToAdd()" classname="com.tavisca.workshops.pratham.datastructures.QueueTest" time="0.004"/>
+  <testcase name="removesValuesInTheSameOrderAsAdded()" classname="com.tavisca.workshops.pratham.datastructures.QueueTest" time="0.002"/>
+  <testcase name="handlesInterspersedRemoves()" classname="com.tavisca.workshops.pratham.datastructures.QueueTest" time="0.001"/>
+  <testcase name="canBeConstructedWithSuppliedCapacity()" classname="com.tavisca.workshops.pratham.datastructures.QueueTest" time="0.002"/>
+  <testcase name="acceptsAValueToAdd()" classname="com.tavisca.workshops.pratham.datastructures.QueueTest" time="0.001"/>
+  <testcase name="isConstructedWithDefaultCapacity()" classname="com.tavisca.workshops.pratham.datastructures.QueueTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
