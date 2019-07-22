@@ -1,4 +1,4 @@
-package com.tavisca.workshops.pratham.rover;
+package com.tavisca.workshops.pratham.marsrover;
 
 import java.util.ArrayList;
 import java.util.List;

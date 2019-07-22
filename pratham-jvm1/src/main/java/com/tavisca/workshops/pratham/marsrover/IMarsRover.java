@@ -1,4 +1,4 @@
-package com.tavisca.workshops.pratham.rover;
+package com.tavisca.workshops.pratham.marsrover;
 
 public interface IMarsRover {
     boolean selectDirectionMethod(String direction);

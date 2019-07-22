@@ -1,21 +1,22 @@
-package com.tavisca.workshops.pratham.rover;
+package com.tavisca.workshops.pratham.marsrover;
 
-public class RoveEast implements IMarsRover {
+public class RoveWest implements IMarsRover {
 
     public boolean selectDirectionMethod(String direction) {
-        return direction.contains("E");
+        return direction.contains("W");
     }
 
     public void rove(Position position, String command) {
         switch (command) {
             case "L":
-                position.setDirection("N");
-                break;
-            case "R":
                 position.setDirection("S");
                 break;
+            case "R":
+                position.setDirection("N");
+                break;
             case "M":
-                position.incrementX();
+                position.decrementX();
+                break;
         }
     }
 }
